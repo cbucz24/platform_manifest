@@ -515,10 +515,10 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
    <!-- add my device trees -->
-  <project name="Team-Hydra/android_kernel_lge_v20" path="kernel/lge/v20" remote="github" revision="cm-14.1" />
+  <project name="Team-Hydra/android_kernel_lge_v20" path="kernel/lge/msm8996" remote="github" revision="cm-14.1" />
   <project name="Team-Hydra/android_device_lge_v20-common" path="device/lge/v20-common" remote="github" revision="cm-14.1" />
   <project name="Team-Hydra/android_device_lge_h918" path="device/lge/h918" remote="github" revision="cm-14.1" />
-  <project path="vendor/lge" name="lg-devs/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
+  <project name="lg-devs/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
   <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" />
